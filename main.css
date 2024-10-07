@@ -1,0 +1,79 @@
+*,
+*::after,
+::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-image: url(img/cosmos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 40% 80%;
+    font-size: cover;
+    color:aliceblue
+}
+
+
+.wpapper{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+img{
+    width: 50%;
+}
+
+.topp{
+    line-height: 40px;
+}
+
+.top{
+    margin: 1em 27% 1em 27%;
+    padding: 10px;
+    background: rgba(red, green, blue, alpha);
+    border-radius: 16px;
+    box-shadow: 0 7px 40px rgba(rgb(241, 65, 65));
+    backdrop-filter: blur (7px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(rgb(99, 11, 11))
+}
+
+.box{
+    display: flex;
+    
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rozha-one-regular {
+    font-family: "Rozha One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.p1{
+margin: 20px;
+padding: 20px;
+text-align: left;
+}
+
+.details u1{
+    list-style-position: inside;
+    margin-bottom:  15px;
+}
+
+details summary{
+    width: 150px;
+    margin: 20px auto;
+}
+
